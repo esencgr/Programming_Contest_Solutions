@@ -6,15 +6,7 @@ if __name__ == '__main__':
         command = input()
         command_lst = command.split()  
         print(command_lst)
-        '''
-        insert i e: Insert integer  at position .
-        print: Print the list.
-        remove e: Delete the first occurrence of integer .
-        append e: Insert integer  at the end of the list.
-        sort: Sort the list.
-        pop: Pop the last element from the list.
-        reverse: Reverse the list.
-         '''
+
         # if command_lst[0] == "insert":
         #     lst.insert(int(command_lst[1]), int(command_lst[2]))
         
